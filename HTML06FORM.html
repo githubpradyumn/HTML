@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body style="background-color: #f7f6f6;">
+    <form action="backend.php">
+        <label style="color: rgb(23, 241, 103);" for="name">Name</label>
+        <div>
+            <input  type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label style="color: rgb(50, 247, 76);" for="role">Role</label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br> 
+        <label style="color: rgb();" for="profession">Profession</label>
+        <div>
+            <input type="text" name="myProfession" id="profession">
+        </div>
+        <br>
+        <label style="color: rgb(255, 0, 0);" for="age">Age</label>
+        <div>
+            <input type="number" name="myAge" id="age">
+        </div>
+        <br>
+        <label style="color: rgb(234, 46, 17);" for="address">Address</label>
+        <div>
+            <input type="text" name="myAddress" id="address">
+        </div>
+        <br>
+        <label style="color: red;" for="Email">E-mail</label>
+        <div>
+            <input type="email" name="myEmail" id="Email">
+        </div>
+        <br>
+        <label style="color: red;" for="date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label style="color: red;" for="salary">Salary</label>
+        <div>
+            <input type="number" name="mySalary" id="salary">
+        </div>
+        <br>
+        <!-- <label for="eligible">Are you eligible for this form: </label> -->
+        <div style="color: red;">
+            Are you eligible for this form: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div style="color: red;">
+            Geder: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"> Other <input type="radio" name="myGender">
+        </div>
+        <br>
+        <div style="color: red;">
+            So now tell me about yourself:<br><textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label style="color: red;" for="location">Location</label>
+            <select name="myLocation" id="location">
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="North America">North America</option>
+                <option value="South America">South america</option>
+                <option value="Australia">Austarlia</option>
+                <option value="Antartica">Antartica</option>
+            </select>
+        </div>
+        <br>
+        <label style="color: red;" for="password">Password</label>
+        <div style="color: red;">
+            <input type="password" name="myPassword" id="password">
+        </div>
+        <br>
+        <div style="color: red;">
+            <input style="color: red;" type="submit" value="Submit it now">
+            <input style="color: red;" type="reset" value="Reset it now">
+        </div>
+    </form>
+</body>
+</html>
